@@ -1,0 +1,108 @@
+.botao1 {
+    color: black;
+    font-size: 20px;
+    height: 50px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: white;
+    border: transparent;
+}
+
+.plano-padrao {
+    border-radius: 10px;
+    display: flex;
+    border: solid #FCBC04 2px;
+    width: 400px;
+}
+
+.ativo {
+    background-color: #FCBC04;
+}
+
+.botao-centralizar {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.card-planos {
+ height: 450px;
+ width: 300px;
+ border: solid #FCBC04 4px;
+ border-radius: 10px;
+ text-align: center;
+ padding-left: 5px;
+ padding-right: 5px;
+ margin-top: 40px;
+}
+
+.titulo-plano {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.texto-musculacao {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+.preco {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.span-mes {
+    color: #3C3A3A;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.descricao {
+    font-size: 18px;
+    font-weight: lighter;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+
+.texto-exercicio {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.imagem-acesso {
+    height: 30px;
+}
+
+.acesso {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todos-planos {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
