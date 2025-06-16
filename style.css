@@ -90,12 +90,41 @@ span {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+@media (max-width: 768px) {
+    .titulo-mapa {
+        font-size: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+}
 
+@media (max-width: 480px) {
+    .titulo-mapa {
+        font-size: 20px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+}
 .mapa-centralizar {
     display: flex;
     justify-content: center;
 }
+.mapa-responsivo {
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+  margin: 0 auto;
+  position: relative;
+}
 
+.mapa-responsivo iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .contatos {
     background-color: black;
