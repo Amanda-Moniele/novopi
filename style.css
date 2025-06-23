@@ -1,8 +1,23 @@
+header {
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
 .navegacao {
     display: flex;
     justify-content: end;
-    background-color: black;
     padding-top: 20px;
+}
+
+.icon {
+    font-size: 28px;
+    padding-right: 10px;
+}
+
+.sandwich-icon {
+    display: none;
 }
 
 /*.imagem-academia {
@@ -34,6 +49,7 @@
     height: 100vh;
     background-image: url(img/imglogo.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .texto {
@@ -74,11 +90,13 @@ span {
     font-size: 20px;
     color: white;
     font-family: "Open Sans", sans-serif;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .mapa {
     background-color: #FCBC04;
-    height: 400px;
+    padding: 10px;
 }
 
 .titulo-mapa {
@@ -96,6 +114,22 @@ span {
         padding-top: 8px;
         padding-bottom: 8px;
     }
+
+    #sandwich:checked~.navegacao {
+        height: auto;
+    }
+    .navegacao {
+        flex-direction: column;
+        height: 0;
+        overflow: hidden;
+        padding-top: 0;
+        width: 100%;
+    }
+
+    .sandwich-icon {
+        display: block;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -113,7 +147,7 @@ span {
   width: 100%;
   max-width: 600px;
   aspect-ratio: 16 / 9;
-  margin: 0 auto;
+  /*margin: 0 auto; */
   position: relative;
 }
 
@@ -140,7 +174,7 @@ span {
 }
 
 .img-contatos {
-    height: 50px;
+    height: 80px;
     padding-right: 30px;
     padding-top: 30px;
 }
@@ -148,4 +182,24 @@ span {
 .contatos-alinhar {
     display: flex;
     justify-content: center;
+}
+
+#sandwich {
+    display: none;
+}
+
+.alinhar-horarios {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.alinhar-horarios p {
+    padding-bottom: 5px;
 }
