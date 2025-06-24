@@ -23,15 +23,15 @@
         <input type="checkbox" id="sandwich">
         <nav class="navegacao">
             <div>
-                <button class="botao">Planos</button>
+                <button class="botao" onclick="location.href='#planos'">Planos</button>
             </div>
 
             <div>
-                <button class="botao">Horários</button>
+                <button class="botao" onclick="location.href='#horario'">Horários</button>
             </div>
 
             <div>
-                <button class="botao">Localização</button>
+                <button class="botao" onclick="location.href='#localizacao'">Localização</button>
             </div>
 
             <div>
@@ -39,7 +39,7 @@
             </div>
 
             <div>
-                <button class="botao">Contatos</button>
+                <button class="botao" onclick="location.href='#contato'">Contatos</button>
             </div>
         </nav>
     
@@ -49,7 +49,7 @@
         <P class="texto">Escolha a <span>Day</span>Fit para alcançar seus objetivos</P>
     </main>
 
-    <div class="planos-section">
+    <div class="planos-section" id="planos">
         <div class="botao-centralizar">
             <div class="plano-padrao">
                 <button class="botao1 ativo" id="plano-padrao-button"><a href=""></a>Plano DayFit</button>
@@ -179,7 +179,7 @@
             </div>
         </div>
 
-        <div class="sessao-horario">
+        <div class="sessao-horario" id="horario">
             <div class="horario-funcionamento">
                 <img src="imagens/relogio.png" alt="" class="imagem-relogio">
                 <h2 class="subtitulo-horario">Horário de funcionamento</h2>
@@ -203,7 +203,7 @@
           
         </div>
 
-        <div class="mapa">
+        <div class="mapa" id="localizacao">
             <p class="titulo-mapa">Onde estamos localizados</p>
             <div class="mapa-centralizar">
                 <div class="mapa-responsivo">
@@ -214,6 +214,38 @@
                 </div>
             </div>
         </div>
+
+        <section id="servicos">
+            <div>
+                <h3 class="cardexer">Exercícios Ofertados:</h3>
+                <p class="cardp">Grandes transformações começam com pequenos movimentos. Esses exercícios podem ser o seu primeiro passo.</p>
+            </div>    
+        <div class="cardtudo">
+  <div class="customizar">
+    <img src="img/musculacao.webp" alt="Imagem 1" class="card-img">
+    <div class="card-body">
+      <h5 class="card-title">Musculação</h5>
+      <p class="card-text">Treinamento com pesos que desenvolve força muscular, resistência física e definição corporal.</p>
+    </div>
+  </div>
+
+  <div class="customizar">
+    <img src="img/zumba-4333580_1280.jpg" alt="Imagem 2" class="card-img">
+    <div class="card-body">
+      <h5 class="card-title">FitDance</h5>
+      <p class="card-text"> Ideal para quem quer se exercitar de forma divertida, melhorando o condicionamento físico.</p>
+    </div>
+  </div>
+
+  <div class="customizar">
+    <img src="img/body.jpg" alt="Imagem 3" class="card-img">
+    <div class="card-body">
+      <h5 class="card-title">BodyPump</h5>
+      <p class="card-text"> Treinamento com barra e anilhas, que fortalece e tonifica músculos com exercícios variados.</p>
+    </div>
+  </div>
+</div>
+</section>
 
 <section id="beneficios" style="padding: 60px 0; background-color: #fff4b9">
   <h2 class="bene">Benefícios de cada <span class="bene" style="color: #ffb300;">exercício:</span></h2>
@@ -425,7 +457,7 @@
 
                        
 
-        <div class="contatos">
+        <div class="contatos" id="contato">
             <p class="titulo-contato">Entre em contato</p>
             <div class="contatos-alinhar">
                 <a href="https://www.instagram.com/dayfit2wagnerfagundes/" target="_blank"><img
