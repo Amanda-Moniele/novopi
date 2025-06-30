@@ -228,6 +228,7 @@ content: "";
   justify-content: center;
   background-color: #fff092;
   min-width: 250px;
+  padding: 0 20px;
 }
 .accordion {
       min-width: 200px;
