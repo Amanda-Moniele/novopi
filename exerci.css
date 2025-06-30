@@ -200,15 +200,14 @@ content: "";
 .tituloper{
   color: #000000;
   text-align: center;
-  margin: 60px auto 40px auto;
   padding-bottom: 12px;
   position: relative;
   width: fit-content;
-  padding-top: 0px;
+  padding-top: 40px;
   font-family: sans-serif;
   font-weight: bold;
   font-style: normal;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .tituloper::after {
@@ -232,7 +231,7 @@ content: "";
 }
 .accordion {
       min-width: 200px;
-      margin: 50px auto;
+      margin: 25px auto;
       border-radius: 6px;
       overflow: hidden;
       border: 2px solid #ffb300;

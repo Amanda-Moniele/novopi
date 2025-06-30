@@ -168,8 +168,9 @@ span {
     padding-top: 20px;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
 }
 
 .img-contatos {
@@ -190,15 +191,17 @@ span {
 .alinhar-horarios {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 70px;
     font-size: 18px;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
-    padding-top: 20px;
-    padding-bottom: 20px;
     color: white;
 }
 
-.alinhar-horarios p {
-    padding-bottom: 5px;
+.texto-dias {
+    padding-bottom: 20px;
+}
+
+.texto-horarios {
+    padding-bottom: 20px;
 }
