@@ -1,14 +1,14 @@
 header {
     background-color: black;
     display: flex;
-    align-items: flex-end;
+   /* align-items: flex-end;*/
     flex-direction: column;
 }
 
 .navegacao {
     display: flex;
-    justify-content: end;
-    padding-top: 20px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .icon {
@@ -204,4 +204,9 @@ span {
 
 .texto-horarios {
     padding-bottom: 20px;
+}
+
+.img-dayfit {
+    height: 90px;
+    padding-top: 10px;
 }
